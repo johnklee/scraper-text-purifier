@@ -1,0 +1,7 @@
+[flake8]
+# E2xx: Whitespace
+# E3xx: Blank line
+# W2xx: Whitespace warning
+# Txxx: 'T001 print found.', 'T003 pprint found.', 'T101 Python 2.x reserved word print used.', 'T103 pprint declared',
+ignore = E126,E127,E501,E722,W292
+
