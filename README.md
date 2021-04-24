@@ -1,8 +1,5 @@
-[![Build Status](https://travis.ibm.com/Neuromancer/w4cs-text-purifier.svg?token=JKd6mMpdi1KyTrmdk8St&branch=develop)](https://travis.ibm.com/Neuromancer/w4cs-text-purifier)
-
-
-# w4cs-text-purifier
-Text extraction Python package for W4CS Crawler 2.0. The package requires Python 3.6 (or above) and
+# scraper-text-purifier
+Text extraction Python package for Scraper. The package requires Python 3.6 (or above) and
 Java 1.7+ (for PDF extraction) to run.
 * [**Usage**](#usage)
     * [API Introduction](#api_usage)
@@ -209,7 +206,6 @@ $ make dist     # build package to dist/purifier-#.#.#.tar.gz
 .
 ├── Makefile           # install, build, test targets
 ├── README.md          # this file
-├── metrics            # contains data and scrpts for generating metrics
 ├── purifier           # main package
 ├── requirements.txt   # development dependent 
 ├── setup.py           # package setup
